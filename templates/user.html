@@ -35,7 +35,7 @@
     
     <script>
       $(document).ready(function () {
-          get_posts()
+          get_posts("{{ user_info.username }}")
       });
 
       function sign_out() {
